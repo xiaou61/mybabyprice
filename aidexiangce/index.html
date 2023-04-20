@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .gallery-section .image img{
+            max-width: 550px;!important;
+            max-height: 550px;!important;
+        }
+    </style>
+</head>
+<body>
+
+<!--gallery画廊-->
+<div class="gallery-section">
+    <div class="inner-width">
+        <h1>Our Photo Album</h1>
+        <div class="border"></div>
+        <div class="gallery">
+
+            <a href="https://i.328888.xyz/2023/03/20/PWl1P.jpeg" class="image">
+                <img src="https://i.328888.xyz/2023/03/20/PWl1P.jpeg" alt="">
+            </a>
+
+            <a href="https://i.328888.xyz/2023/03/20/PW2CX.jpeg" class="image">
+                <img src="https://i.328888.xyz/2023/03/20/PW2CX.jpeg" alt="">
+            </a>
+
+            <a href="https://i.328888.xyz/2023/03/20/PWHgt.jpeg" class="image">
+                <img src="https://i.328888.xyz/2023/03/20/PWHgt.jpeg" alt="">
+            </a>
+
+            <a href="https://i.328888.xyz/2023/03/20/PWOKJ.jpeg" class="image">
+                <img src="https://i.328888.xyz/2023/03/20/PWOKJ.jpeg" alt="">
+            </a>
+
+            <a href="https://i.328888.xyz/2023/03/20/PW8RA.jpeg" class="image">
+                <img src="https://i.328888.xyz/2023/03/20/PW8RA.jpeg" alt="">
+            </a>
+
+            <a href="https://i.328888.xyz/2023/03/20/PWISo.png" class="image">
+                <img src="https://i.328888.xyz/2023/03/20/PWISo.png" alt="">
+            </a>
+
+            <a href="https://i.328888.xyz/2023/03/20/PWrVN.png" class="image">
+                <img src="https://i.328888.xyz/2023/03/20/PWrVN.png" alt="">
+            </a>
+            <a href="https://i.328888.xyz/2023/03/20/Pocxc.jpeg" class="image">
+                <img src="https://i.328888.xyz/2023/03/20/Pocxc.jpeg" alt="">
+            </a>
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+    $(".gallery").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凡凡和宝贝的相册</title>
+    <link href="./imgs/love.svg" rel="shortcut icon">
+
+    <link rel="stylesheet" href="./css/album.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="./css/album_small.css">
+
+</head>
+
+<body>
+
+    <!-- loading -->
+    <div class="loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+
+    <!-- 主体 -->
+    <div class="container-main not-show">
+
+        <!-- 顶部标题 -->
+        <div class="top-tit">
+            <div class="icon-logo">
+                <img src="./imgs/album-logo.png" alt="" srcset="">
+            </div>
+            <div class="tit-words">
+                欢迎来到相册
+            </div>
+        </div>
+
+        <!-- 照片内容 -->
+        <div class="photo-list-box">
+            <div class="main-box">
+
+                <div class="item-pic">
+                    <div class="up-img-add" id="add-pic-btn">
+                        <img src="./imgs/add.svg" alt="" class="pic-img-add">
+                    </div>
+                    <div class="down-words">
+                        <div class="tit">新影片</div>
+                        <div class="cont">添加影片和视频</div>
+                    </div>
+                </div>
+
+                <!-- 单部分 -->
+                <div class="item-pic">
+                    <div class="up-img">
+                        <img src="" alt="等待开发" class="pic-img">
+                    </div>
+                    <div class="down-words">
+                        <div class="tit">等待开发</div>
+                        <div class="cont">这个以后就放我们每一个重要时间点的照片，我打算先从100天的之后开始记录</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/album.js"></script>
+
+</body>
+
+</html>

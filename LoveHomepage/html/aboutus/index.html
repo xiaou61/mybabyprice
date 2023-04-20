@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>子凡和My Baby的网站</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage full-screen background videos." />
+    <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,video,full-screen" />
+    <meta name="Resource-type" content="zzandgg" />
+    <link href="./imgs/love.svg" rel="shortcut icon">
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/animation.css">
+</head>
+
+<body>
+    <!-- 播放mp3 -->
+    <audio loop="loop" id="bgm">
+        <source src="./mp3/zhou.mp3" type="audio/ogg" />
+    </audio>
+
+    <div id="fullpage">
+
+        <!-- our web -->
+        <div class="section" id="section0">
+            <div class="fp-bg-sec-1"></div>
+            <div class="content">
+                <div class="tit slide-in-bck-top">关于我们</div>
+                <div class="desc tracking-in-contract-bck">子凡和My Baby的网站</div>
+                <div class="button-rainbow slide-in-elliptic-left-bck">
+                    <div class="button-download shake-bottom" id="love-you-btn">
+                        Love You
+                    </div>
+                </div>
+            </div>
+
+            <!-- 点击love you的消息弹出框 -->
+            <!-- <div class="notification-love-you" style="left: -430px;">
+                别点，点就是弹出框!
+            </div> -->
+        </div>
+
+        <!-- video -->
+        <div class="section" id="section1">
+            <video class='myVid' id="myVideo" loop muted data-autoplay>
+                <source src="imgs/xuexue.mov" type="video/mp4">
+            </video>
+            <div class="words hide-res" id='gaga-video-words'>
+                <div>喜欢凡凡的雪雪宝贝</div>
+            </div>
+        </div>
+
+        <!-- video -->
+        <div class="section" id="section2">
+            <video class='myVid' id="myVideo" loop muted data-autoplay>
+                <source src="imgs/fanfan.mov" type="video/mp4">
+            </video>
+            <div class="words hide-res" id="zz-video-words">
+                <div>喜欢宝贝的凡凡</div>
+            </div>
+        </div>
+
+        <!-- 轮播图 -->
+        <div class="section" id="section3">
+            <div class="owl-carousel owl-theme">
+                <div class="item item-1">
+                    <div class="left-part">
+                        <div class="top-line"></div>
+                        <div class="desc">
+                            <div>我们生活的点点滴滴</div>
+                            <div>Baby～</div>
+                        </div>
+                        <div class="title">Love you</div>
+                    </div>
+                    <div class="right-part">
+                        <div class="show-pic">
+                            <img src="./imgs/qianshou.jpg" class="pic">
+                            <div class="cont">
+                                <div class="desc-tit">Happiness</div>
+                                <div class="desc-cont">
+                                   第一次牵手，很高兴
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-2">
+                    <div class="left-part">
+                        <div class="top-line"></div>
+                        <div class="desc">
+                            <div>Play with my girl</div>
+                            <div>forever~</div>
+                        </div>
+                        <div class="title">一起游戏</div>
+                    </div>
+                    <div class="right-part">
+                        <div class="show-pic">
+                            <img src="./imgs/togother-1.jpg" class="pic">
+                            <div class="cont">
+                                <div class="desc-tit">Game</div>
+                                <div class="desc-cont">
+                                    Fighting game, hammer my xuexue
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-3">
+                    <div class="left-part">
+                        <div class="top-line"></div>
+                        <div class="desc">
+                            <div>给我写的保证书</div>
+                            <div>很是喜欢</div>
+                        </div>
+                        <div class="title">Honey</div>
+                    </div>
+                    <div class="right-part">
+                        <div class="show-pic">
+                            <img src="./imgs/baozheng.jpg" class="pic">
+                            <div class="cont">
+                                <div class="desc-tit">Cute</div>
+                                <div class="desc-cont">
+                                    Whatever you think, I just love
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-4">
+                    <div class="left-part">
+                        <div class="top-line"></div>
+                        <div class="desc">
+                            <div>听我们喜欢听的音乐</div>
+                            <div>感受着彼此的呼吸</div>
+                        </div>
+                        <div class="title">一起音乐</div>
+                    </div>
+                    <div class="right-part">
+                        <div class="show-pic">
+                            <img src="./imgs/together-2.PNG" class="pic">
+                            <div class="cont">
+                                <div class="desc-tit">Listen Music</div>
+                                <div class="desc-cont">
+                                    Listen to our favorite music together
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-5">
+                    <div class="left-part">
+                        <div class="top-line"></div>
+                        <div class="desc">
+                            <div>想一直一直</div>
+                            <div>趴在你身上睡着</div>
+                        </div>
+                        <div class="title">宝宝</div>
+                    </div>
+                    <div class="right-part">
+                        <div class="show-pic">
+                            <img src="./imgs/sleep.jpg" class="pic">
+                            <div class="cont">
+                                <div class="desc-tit">Passionately</div>
+                                <div class="desc-cont">就想这样一直趴在你身边，永远，永远</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 自定义左右按钮 -->
+            <div class="nav-btn-custom">
+                <div class="owl-btn-pre-cus">
+                    <img src="./imgs/owl/btn_pre.svg" alt="" srcset="">
+                </div>
+                <div class="owl-btn-next-cus">
+                    <img src="./imgs/owl/btn_next.svg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <!-- 相识计时器 -->
+        <div class="section" id="section4">
+            <div class="timer-main hide-res">
+                <div class="tit">与你相识：</div>
+                <div id="timer" style="height: 56px;width: 100vw;"></div>
+            </div>
+        </div>
+
+        <!-- 总结话 -->
+        <div class="section" id="section5">
+            <div class="fp-bg-sec-5"></div>
+            <div class="res-content hide-res" id="res-content">
+                <div class="tit">Loving</div>
+                <div class="cont">
+                    <span>善良，脾气好</span>&nbsp;&nbsp;&nbsp;<span>总是晚睡</span>
+                    <p>一个2004年9月28日出生的女孩</p>
+                    <p>一个喜欢玩游戏、听歌的女孩</p>
+                    <p>一个美美的、可爱的、活泼的女孩</p>
+                    <p>一个我爱的女孩</p>
+                    <p>一个叫郭雅雪的女孩</p>
+                    <p>Love welcomes all difficulties and wins all difficulties</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 相爱计时器 -->
+        <div class="section" id="section6">
+            <div class="timer-main-love hide-res">
+                <div class="tit">与你相爱：</div>
+                <div id="timer-love" style="height: 56px;width: 100vw;"></div>
+            </div>
+        </div>
+
+        <!-- 壮壮和嘎嘎的共同回忆（相册） -->
+        <div class="section" id="section7">
+            <div class="fp-bg-sec-6">
+                <div class="bg-pic hide-res">
+                    <img class="pic-item pic-1" src="./imgs/vectors-2-1.svg" alt="" srcset="">
+                </div>
+                <div class="bg-pic hide-res">
+                    <img class="pic-item pic-2" src="./imgs/vectors-2-2.svg" alt="" srcset="">
+                </div>
+                <div class="bg-pic hide-res">
+                    <img class="pic-item pic-3" src="./imgs/vectors-2-3.svg" alt="" srcset="">
+                </div>
+                <div class="bg-pic hide-res">
+                    <img class="pic-item pic-4" src="./imgs/vectors-333.svg" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="photo-list">
+                <div class="pic-box pic-box-1 hide-res">
+                    <img class='photo-item pic-top-left' src="./imgs/sleep.jpg" alt="" srcset="">
+                </div>
+                <div class="pic-box pic-box-2 hide-res">
+                    <img class='photo-item pic-top-center' src="./imgs/qianshou.jpg" alt="" srcset="">
+                </div>
+                <div class="pic-box pic-box-3 hide-res">
+                    <img class='photo-item pic-top-right' src="./imgs/togother-1.jpg" alt="" srcset="">
+                </div>
+                <div class="pic-box pic-box-4 hide-res">
+                    <img class='photo-item pic-bot-left' src="./imgs/together-2.PNG" alt="" srcset="">
+                </div>
+                <div class="pic-box pic-box-5 hide-res">
+                    <img class='photo-item pic-bot-center' src="./imgs/baozheng.jpg" alt="" srcset="">
+                </div>
+                <div class="pic-box pic-box-6 hide-res">
+                    <img class='photo-item pic-bot-right' src="./imgs/bb.JPG" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="photos-content hide-opacity">
+                <div class="tit">美好回忆的存放地</div>
+                <div class="btn" id="go-album">进入相册</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 向下的箭头 -->
+    <svg class="arrow-down">
+        <path
+            d="M12 18c-.2 0-.5-.1-.7-.3l-11-10c-.4-.4-.4-1-.1-1.4.4-.4 1-.4 1.4-.1l10.4 9.4 10.3-9.4c.4-.4 1-.3 1.4.1.4.4.3 1-.1 1.4l-11 10c-.1.2-.4.3-.6.3z" />
+    </svg>
+
+    <!-- 设置 -->
+    <div class="setting">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 268.765 268.765" style="enable-background:new 0 0 268.765 268.765;"
+            xml:space="preserve">
+            <g>
+                <g>
+                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M267.92,119.461c-0.425-3.778-4.83-6.617-8.639-6.617
+                c-12.315,0-23.243-7.231-27.826-18.414c-4.682-11.454-1.663-24.812,7.515-33.231c2.889-2.641,3.24-7.062,0.817-10.133
+                c-6.303-8.004-13.467-15.234-21.289-21.5c-3.063-2.458-7.557-2.116-10.213,0.825c-8.01,8.871-22.398,12.168-33.516,7.529
+                c-11.57-4.867-18.866-16.591-18.152-29.176c0.235-3.953-2.654-7.39-6.595-7.849c-10.038-1.161-20.164-1.197-30.232-0.08
+                c-3.896,0.43-6.785,3.786-6.654,7.689c0.438,12.461-6.946,23.98-18.401,28.672c-10.985,4.487-25.272,1.218-33.266-7.574
+                c-2.642-2.896-7.063-3.252-10.141-0.853c-8.054,6.319-15.379,13.555-21.74,21.493c-2.481,3.086-2.116,7.559,0.802,10.214
+                c9.353,8.47,12.373,21.944,7.514,33.53c-4.639,11.046-16.109,18.165-29.24,18.165c-4.261-0.137-7.296,2.723-7.762,6.597
+                c-1.182,10.096-1.196,20.383-0.058,30.561c0.422,3.794,4.961,6.608,8.812,6.608c11.702-0.299,22.937,6.946,27.65,18.415
+                c4.698,11.454,1.678,24.804-7.514,33.23c-2.875,2.641-3.24,7.055-0.817,10.126c6.244,7.953,13.409,15.19,21.259,21.508
+                c3.079,2.481,7.559,2.131,10.228-0.81c8.04-8.893,22.427-12.184,33.501-7.536c11.599,4.852,18.895,16.575,18.181,29.167
+                c-0.233,3.955,2.67,7.398,6.595,7.85c5.135,0.599,10.301,0.898,15.481,0.898c4.917,0,9.835-0.27,14.752-0.817
+                c3.897-0.43,6.784-3.786,6.653-7.696c-0.451-12.454,6.946-23.973,18.386-28.657c11.059-4.517,25.286-1.211,33.281,7.572
+                c2.657,2.89,7.047,3.239,10.142,0.848c8.039-6.304,15.349-13.534,21.74-21.494c2.48-3.079,2.13-7.559-0.803-10.213
+                c-9.353-8.47-12.388-21.946-7.529-33.524c4.568-10.899,15.612-18.217,27.491-18.217l1.662,0.043
+                c3.853,0.313,7.398-2.655,7.865-6.588C269.044,139.917,269.058,129.639,267.92,119.461z M134.595,179.491
+                c-24.718,0-44.824-20.106-44.824-44.824c0-24.717,20.106-44.824,44.824-44.824c24.717,0,44.823,20.107,44.823,44.824
+                C179.418,159.385,159.312,179.491,134.595,179.491z"></path>
+                </g>
+            </g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+        </svg>
+    </div>
+
+    <!-- 顺序很重要 -->
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="./js/fullpage.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    
+</body>
+
+</html>
